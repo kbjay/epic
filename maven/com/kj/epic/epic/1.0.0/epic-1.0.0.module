@@ -1,0 +1,84 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.kj.epic",
+    "module": "epic",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "wqzchse4lzfdfmli4d37iurt4q"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "me.weishu.exposed",
+          "module": "exposed-xposedapi",
+          "version": {
+            "requires": "0.4.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "epic-1.0.0.aar",
+          "url": "epic-1.0.0.aar",
+          "size": 114258,
+          "sha512": "0744d00f95751027153e9167454a1df56ba5c5bd56de8cdc3de3519db95834e482c18d57dfe3562cf9a302ca0f68206dc8a87dc80018e481280c8f26e8670e3b",
+          "sha256": "6017fed028bb3662dd4bd54e054f39564e6848b56a455b65525d36fbb974eaf0",
+          "sha1": "1a578e23940e395c0d53aa1113ab18220dfe9263",
+          "md5": "ec9deb462b316aeadd8d72a84c101455"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.tiann",
+          "module": "FreeReflection",
+          "version": {
+            "requires": "3.1.0"
+          }
+        },
+        {
+          "group": "me.weishu.exposed",
+          "module": "exposed-xposedapi",
+          "version": {
+            "requires": "0.4.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "epic-1.0.0.aar",
+          "url": "epic-1.0.0.aar",
+          "size": 114258,
+          "sha512": "0744d00f95751027153e9167454a1df56ba5c5bd56de8cdc3de3519db95834e482c18d57dfe3562cf9a302ca0f68206dc8a87dc80018e481280c8f26e8670e3b",
+          "sha256": "6017fed028bb3662dd4bd54e054f39564e6848b56a455b65525d36fbb974eaf0",
+          "sha1": "1a578e23940e395c0d53aa1113ab18220dfe9263",
+          "md5": "ec9deb462b316aeadd8d72a84c101455"
+        }
+      ]
+    }
+  ]
+}

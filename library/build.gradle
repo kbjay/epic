@@ -1,4 +1,5 @@
 apply plugin: 'com.android.library'
+apply plugin: 'maven-publish'
 
 android {
     compileSdkVersion 31
@@ -45,14 +46,24 @@ dependencies {
     api 'me.weishu.exposed:exposed-xposedapi:0.4.5'
 }
 
-apply plugin: 'com.github.panpf.bintray-publish'
-
-publish {
-    userOrg = 'twsxtd'//
-    groupId = 'me.weishu'
-    artifactId = 'epic'
-    publishVersion = '0.11.1'
-    desc = 'Android Java AOP Method Hook (Dexposed on ART)'
-    website = 'https://github.com/tiann/epic'
+afterEvaluate {
+    publishing {
+        // 配置maven 仓库
+        repositories { RepositoryHandler handler ->
+            handler.maven {
+                url "${rootDir}/maven"
+            }
+        }
+        // 配置发布产物
+        publications { PublicationContainer publication ->
+            // 任务名称：maven
+            // 容器可配置的信息 MavenPublication
+            maven(MavenPublication) {
+                from components.release
+                groupId "com.kj.epic"
+                artifactId "epic"
+                version "1.0.0"
+            }
+        }
+    }
 }
-

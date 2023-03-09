@@ -1,0 +1,5 @@
+# ninja log v5
+46	452	700069396	CMakeFiles/epic.dir/fake_dlfcn.cpp.o	12b4fe11ac9297a2
+66	741	700069397	CMakeFiles/epic.dir/art.cpp.o	15f0c7d9d0a8f5a9
+1	794	700069397	CMakeFiles/epic.dir/epic.cpp.o	7d020d77885fc49b
+794	913	700069397	D:/github/epic_/epic/library/build/intermediates/cmake/release/obj/arm64-v8a/libepic.so	f37e630d26ab305d

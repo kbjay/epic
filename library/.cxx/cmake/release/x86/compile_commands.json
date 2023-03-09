@@ -1,0 +1,19 @@
+[
+{
+  "directory": "D:/github/epic_/epic/library/.cxx/cmake/release/x86",
+  "command": "C:\\Users\\wangzeqi\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=i686-none-linux-android21 --gcc-toolchain=C:/Users/wangzeqi/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/wangzeqi/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Depic_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++11 -O2 -DNDEBUG  -fPIC   -o CMakeFiles\\epic.dir\\epic.cpp.o -c D:\\github\\epic_\\epic\\library\\src\\main\\cpp\\epic.cpp",
+  "file": "D:\\github\\epic_\\epic\\library\\src\\main\\cpp\\epic.cpp"
+},
+
+{
+  "directory": "D:/github/epic_/epic/library/.cxx/cmake/release/x86",
+  "command": "C:\\Users\\wangzeqi\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=i686-none-linux-android21 --gcc-toolchain=C:/Users/wangzeqi/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/wangzeqi/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Depic_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++11 -O2 -DNDEBUG  -fPIC   -o CMakeFiles\\epic.dir\\fake_dlfcn.cpp.o -c D:\\github\\epic_\\epic\\library\\src\\main\\cpp\\fake_dlfcn.cpp",
+  "file": "D:\\github\\epic_\\epic\\library\\src\\main\\cpp\\fake_dlfcn.cpp"
+},
+
+{
+  "directory": "D:/github/epic_/epic/library/.cxx/cmake/release/x86",
+  "command": "C:\\Users\\wangzeqi\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=i686-none-linux-android21 --gcc-toolchain=C:/Users/wangzeqi/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/wangzeqi/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Depic_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++11 -O2 -DNDEBUG  -fPIC   -o CMakeFiles\\epic.dir\\art.cpp.o -c D:\\github\\epic_\\epic\\library\\src\\main\\cpp\\art.cpp",
+  "file": "D:\\github\\epic_\\epic\\library\\src\\main\\cpp\\art.cpp"
+}
+]
